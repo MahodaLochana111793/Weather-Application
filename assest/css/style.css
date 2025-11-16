@@ -1,0 +1,54 @@
+/* HEADER MAIN DIV */
+.main_header_div{
+    background-color: #000000;   /* BLACK BACKGROUND */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* LEFT SIDE */
+.header_left_side{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_left_side img{
+    width: 60px;
+    height: auto;
+}
+
+/* WEATHER FORECAST TITLE */
+.page_title {
+    color: #ffffff;                /* WHITE TEXT */
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* RIGHT SIDE */
+.header_right_side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* INPUT BOX */
+.header_right_side input{
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-right: 25px;
+    background-color: #3a3a3a;    /* DARK GREY */
+    color: #ffffff;               /* TYPED TEXT WHITE */
+    font-size: 20px;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+}
+
+/* PLACEHOLDER COLOR */
+.header_right_side input::placeholder {
+    color: #ffffff;               /* WHITE PLACEHOLDER */
+    opacity: 1;
+}
