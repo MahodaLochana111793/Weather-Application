@@ -1,0 +1,153 @@
+/* GLOBAL */
+body {
+    background-color: #0f0d14;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------
+   HEADER SECTION
+-------------------------------------------------- */
+.main_header_div {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header_left_side {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_left_side img {
+    width: 60px;
+    height: auto;
+}
+
+.page_title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* RIGHT SIDE INPUT */
+.header_right_side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_right_side input {
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-right: 25px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+}
+
+.header_right_side input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* --------------------------------------------------
+   WEATHER MAIN CONTAINER
+-------------------------------------------------- */
+.weather-container {
+    width: 95%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #1a1721;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* LEFT SIDE WEATHER AREA */
+.left-box {
+    width: 55%;
+}
+
+.weather-top {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.weather-icon {
+    width: 120px;
+}
+
+.location-info h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.temp {
+    font-size: 48px;
+    margin: 5px 0;
+}
+
+.sub-temp {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.fog {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.date {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* SUNRISE / SUNSET BOXES */
+.sun-box {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.sun-item {
+    flex: 1;
+    background-color: #2b2833;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sun-img {
+    width: 40px;
+    margin-bottom: 8px;
+}
+
+/* RIGHT SIDE WEATHER GRID */
+.right-box {
+    width: 45%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px 40px;
+}
+
+.info-item h5 {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 3px;
+}
+
+.info-item p {
+    font-size: 18px;
+}
